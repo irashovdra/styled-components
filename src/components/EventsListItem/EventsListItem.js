@@ -24,4 +24,5 @@ export const StyledText = styled.p`
   font-size: 15px;
   font-family: Roboto;
   margin-bottom: 6px;
+  color: ${(props) => props.theme.color};
 `;
